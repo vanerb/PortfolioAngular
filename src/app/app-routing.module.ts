@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: '', component: IndexComponent},
   { path: 'language', component: LanguagesprogramComponent},
   { path: 'portfolio', component: PortfolioComponent},
-  { path: 'item', component: PitemComponent},
+  { path: 'item/:id', component: PitemComponent},
   { path: 'services', component: ServicesComponent},
   { path: 'prices', component: PricesComponent},
   {path: 'contact', component: ContactComponent},
@@ -20,7 +20,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { 
