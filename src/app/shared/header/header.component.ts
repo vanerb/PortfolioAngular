@@ -8,6 +8,7 @@ import { InfopageService } from 'src/app/services/infopage.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  urllogo:string = "assets/img/ui/logo.png";
   constructor(public _infoPageService: InfopageService) { 
           
   }

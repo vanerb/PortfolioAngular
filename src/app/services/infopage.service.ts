@@ -10,6 +10,8 @@ export class InfopageService {
   info: InfoPage = {};
   charged = false;
   itemsPortfolio: any[] = [];
+  itemsImgs: any[] = [];
+
   constructor(private http: HttpClient) {
     this.chargeInfo();
     this.chargeItems();
@@ -34,9 +36,13 @@ export class InfopageService {
     })
   }
 
+
+
   getItem(id: string) {
     return this.http.get(`https://portfolioangular-11749-default-rtdb.europe-west1.firebasedatabase.app/portfolioitems/${id}.json`)
   }
+
+
 }
 
 

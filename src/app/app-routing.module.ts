@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'item/:id', component: PitemComponent},
   { path: 'services', component: ServicesComponent},
   { path: 'prices', component: PricesComponent},
-  {path: 'contact', component: ContactComponent},
+  { path: 'contact', component: ContactComponent},
   { path: '**', pathMatch: 'full', redirectTo: '/'}
 ];
 
