@@ -66,3 +66,35 @@ h2 {
 .panel p {
   text-align: center;
 }
+
+.cartaprecios {
+  text-align: center;
+}
+
+.cartaprecios .card-subtitle {
+  font-size: 60px;
+}
+
+.cartaprecios .card-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.btn {
+    background-color: rgb(14, 14, 14);
+    border-color: black;
+    border-radius: 0;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+
+
+.cartaprecios:hover {
+  animation: tada; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}

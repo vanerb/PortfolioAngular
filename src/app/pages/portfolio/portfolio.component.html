@@ -1,14 +1,17 @@
 
 
 <div class="container">
-    <h1 class="text-center">Portfolio</h1>
+    <h1 class="display-4">PORTFOLIO</h1>
+    <div class="separator">
+        <span>. . .</span>
+    </div>
     <div class="row">
         
-        <div class="col-md-4" *ngFor="let items of _items.itemsPortfolio" routerLink="/item/{{ items.id }}">
-            <div class="d-flex align-items-center justify-content-center">
+        <div class="col-md-5 m-2 shadow-lg panel mx-auto" *ngFor="let items of _items.itemsPortfolio" routerLink="/item/{{ items.id }}">
+            <div>
                 <img src="{{ items.img }}" alt="" width="250">
             </div>
-            <div class="mt-auto">
+            <div>
                 <h2 class="text-center">{{ items.titulo }}</h2>
                 <p>{{ items.descripcion }}</p>
                 <p>Link: <a href="{{ items.link }}">{{ items.link }}</a></p>

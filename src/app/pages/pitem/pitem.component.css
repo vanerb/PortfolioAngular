@@ -65,7 +65,13 @@
     text-align: center;
   }
   
-  .panel p {
-    text-align: center;
+  .panel{
+    padding: 20px;
+    
+  }
+  
+  .panel:hover{
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
   }
   

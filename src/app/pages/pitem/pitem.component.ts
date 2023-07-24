@@ -15,6 +15,8 @@ export class PitemComponent {
     imgs:string[] = ['captura0', 'captura1', 'captura2', 'captura3'];
     id: string = "";
 
+    imagenno: string = this.ruta+"/ui/noimage.png";
+
     constructor(private route: ActivatedRoute, public itemService: InfopageService) { 
 
     }
