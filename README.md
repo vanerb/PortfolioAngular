@@ -2,7 +2,7 @@
 # PortfolioAngular
 
 ## Descripcion
-Este proyecto consiste en una página web hecha con Angular donde se muestra mi portfolio. También se conecta a "firebase" para obtener algunos satos almacenados en una base de datos y los muestra.
+Este proyecto consiste en una página web hecha con Angular donde se muestra mi portfolio. También se conecta a "Firebase" para obtener algunos datos almacenados en una base de datos y los muestra.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 
